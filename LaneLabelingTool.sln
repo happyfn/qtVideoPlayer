@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaneLabelingTool", "LaneLabelingTool\LaneLabelingTool.vcxproj", "{AEF23425-7AAF-4738-80A2-66FDDC8DBB57}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "laneLablingTool", "C:\Users\28321\Desktop\laneLablingToolSoft\laneLablingTool\laneLablingTool.vdproj", "{90814657-219C-4D2B-9FDF-E0D760CD81C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEF23425-7AAF-4738-80A2-66FDDC8DBB57}.Debug|x64.ActiveCfg = Debug|x64
+		{AEF23425-7AAF-4738-80A2-66FDDC8DBB57}.Debug|x64.Build.0 = Debug|x64
+		{AEF23425-7AAF-4738-80A2-66FDDC8DBB57}.Release|x64.ActiveCfg = Release|x64
+		{AEF23425-7AAF-4738-80A2-66FDDC8DBB57}.Release|x64.Build.0 = Release|x64
+		{90814657-219C-4D2B-9FDF-E0D760CD81C1}.Debug|x64.ActiveCfg = Debug
+		{90814657-219C-4D2B-9FDF-E0D760CD81C1}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

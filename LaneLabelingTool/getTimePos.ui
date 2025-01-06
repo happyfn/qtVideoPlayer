@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>getTimePos</class>
+ <widget class="QWidget" name="getTimePos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>912</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>LaneLabelingTool</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(40, 40, 40);
+font: 700 9pt &quot;Microsoft YaHei&quot;;
+color: rgb(210, 210, 210);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>请在屏幕上直接鼠标点击截取时间区域，点击左下角按钮验证是否ocr识别成功，识别结果见右下角</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDrawGraphicsView" name="graphicsView">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="myButton" name="getTimeButton">
+         <property name="styleSheet">
+          <string notr="true">border-top:2px solid  #6B6B6B;
+background-color: rgb(51, 51, 51);
+border-radius:5px;</string>
+         </property>
+         <property name="text">
+          <string>保存并识别</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="videoTimeKey">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>视频时间:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="videoTimeValue">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>00:00:00</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QDrawGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header>QDrawGraphicsView.h</header>
+  </customwidget>
+  <customwidget>
+   <class>myButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">myButton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../images/LaneLabelingTool.qrc"/>
+ </resources>
+ <connections/>
+</ui>

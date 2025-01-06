@@ -1,0 +1,147 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/leptonica-x64-windows-1.84.1#1-6d3f342c-07fa-45d6-859a-c0238f5c2095",
+  "name": "leptonica:x64-windows@1.84.1#1 95ff244115e1add899ac9dc6d3266d6e3dd77f2a6dda0f9b7564901aa2e12107",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-11-12-eb492805e92a2c14a230f5c3deb3e89f6771c321"
+    ],
+    "created": "2024-12-09T05:56:11Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "leptonica",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.84.1#1",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/leptonica",
+      "homepage": "https://github.com/DanBloomberg/leptonica",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "An open source library containing software that is broadly useful for image processing and image analysis applications",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "leptonica:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "95ff244115e1add899ac9dc6d3266d6e3dd77f2a6dda0f9b7564901aa2e12107",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "DanBloomberg/leptonica",
+      "downloadLocation": "git+https://github.com/DanBloomberg/leptonica@1.84.1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "968a88d2074717e6f379d2f9b8f7f0d5193fe9b8856051e09e2b31c939689b196a4a9b2cde595ce76ff8ae2784680ef5e68c40709c051d3d23738e862968016f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-2",
+      "name": "leptonica-reduce-c-standard-23aef077a8dd631de80cb457384e0aa5338e85a4.patch",
+      "packageFileName": "leptonica-reduce-c-standard-23aef077a8dd631de80cb457384e0aa5338e85a4.patch",
+      "downloadLocation": "https://github.com/DanBloomberg/leptonica/commit/23aef077a8dd631de80cb457384e0aa5338e85a4.patch?full_index=1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e309730b959c58b2c063bfd40434da22c79061ece48f2d8a388364a49e2a12a85b74b755e8b837d8fdeee9c187379460a85a9e5cf84f09f0c4649f280a0c9536"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/src/vcpkg-master/ports/leptonica/fix-pc-and-config.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ce9f6163167f57c0e3d7a5ca9b00f99ac3d4e344c4dc066ca86378278f555b86"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/src/vcpkg-master/ports/leptonica/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "846f186edd91186fb1967f300769999fc240664ef3fe652d862da1ffa95418a1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/src/vcpkg-master/ports/leptonica/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aeeed39c9c30327cbd73d9c819c08915202658f8b121a82686639bc0bd4cb8a9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
